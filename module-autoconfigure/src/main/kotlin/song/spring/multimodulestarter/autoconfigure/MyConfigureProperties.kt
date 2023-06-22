@@ -1,6 +1,7 @@
 package song.spring.multimodulestarter.autoconfigure
 
 import org.springframework.boot.context.properties.ConfigurationProperties
+import java.util.*
 
 @ConfigurationProperties("my")
 data class MyConfigureProperties(
